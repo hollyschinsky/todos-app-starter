@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.mytodos.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>StarterTodos</name>
+    <description>
+        A PhoneGap Todo app built with Framework7/VueJS.
+    </description>
+    <author email="support@phonegap.com" href="http://devgirl.org">
+        Holly Schinsky
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-statusbar" spec="~2.2.3" />    
+</widget>
