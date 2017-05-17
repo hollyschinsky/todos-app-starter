@@ -11,15 +11,14 @@ It's also a starter app that can be used with this [online workshop](https://hol
 
 ## Usage
 
-    `phonegap create todos-app --template https://github.com/hollyschinsky/todos-app-starter`
+    phonegap create todos-app --template https://github.com/hollyschinsky/todos-app-starter
 
 or
 
-    `cordova create todos-app --template=https://github.com/hollyschinsky/todos-app-starter`
+    cordova create todos-app --template https://github.com/hollyschinsky/todos-app-starter
 
 ## Advanced Version of the Todo App 
-Built with Framework7, Vue.js and Cordova/PhoneGap along with Babel, Webpack and Hot Reloading
-[Get it here](https://github.com/phonegap/phonegap-app-todo).
+There's also an advanced version of this todo app built with Framework7, Vue.js and Cordova/PhoneGap along with Babel, Webpack and Hot Reloading you can check out [here](https://github.com/phonegap/phonegap-app-todo).
 
 > Note: this advanced version used [this new PhoneGap template for creating Tabbed apps with Framework7 and Vue](https://github.com/phonegap/phonegap-template-vue-f7-tabs).
 
