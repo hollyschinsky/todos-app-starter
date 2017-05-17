@@ -1,10 +1,10 @@
 {
-  "name": "pwa-workshop-starter",
+  "name": "todos-app-starter",
   "version": "1.0.0",
   "description": "A todo app built with PhoneGap/Framework7/VueJS.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hollyschinsky/pwa-workshop-starter"
+    "url": "https://github.com/hollyschinsky/todos-app-starter"
   },
   "author": "Holly Schinsky",
   "license": "Apache-2.0",
@@ -15,7 +15,7 @@
     "phonegap:template"
   ],
   "bugs": {
-    "url": "https://github.com/hollyschinsky/pwa-workshop-starter/issues"
+    "url": "https://github.com/hollyschinsky/todos-app-starter/issues"
   },
-  "homepage": "https://github.com/hollyschinsky/pwa-workshop-starter"
+  "homepage": "https://github.com/hollyschinsky/todos-app-starter"
 }

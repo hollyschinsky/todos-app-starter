@@ -2,7 +2,7 @@
 
 A sample PhoneGap Todo App built with Framework7/VueJS.
 
-It's also a starter app that can be used with this [online workshop](https://hollyschinsky.github.io/pwa-workshop) and project repo for creating a Cross Platform Progressive Web App.
+It's also a starter app that can be used with this [online workshop](https://hollyschinsky.github.io/todos-app-pwa) and project repo for creating a Cross Platform Progressive Web App.
 
 ### App Stack
 - [Cordova](http://cordova.apache.org)
@@ -11,11 +11,11 @@ It's also a starter app that can be used with this [online workshop](https://hol
 
 ## Usage
 
-    `phonegap create todos-app --template https://github.com/hollyschinsky/pwa-workshop-starter`
+    `phonegap create todos-app --template https://github.com/hollyschinsky/todos-app-starter`
 
 or
 
-    `cordova create todos-app --template=https://github.com/hollyschinsky/pwa-workshop-starter`
+    `cordova create todos-app --template=https://github.com/hollyschinsky/todos-app-starter`
 
 ## Advanced Version of the Todo App 
 Built with Framework7, Vue.js and Cordova/PhoneGap along with Babel, Webpack and Hot Reloading

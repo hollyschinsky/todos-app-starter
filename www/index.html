@@ -13,9 +13,10 @@
       
   <title>My Todo App</title>
   <link rel="stylesheet" href="lib/framework7-icons/css/framework7-icons.css">
-
+  
   <!-- See js/init-styles.jswhere we load F7 style sheets based on platform -->
   <link rel="stylesheet" href="css/app.css">  
+  
 </head>
 
 <body>
@@ -108,6 +109,8 @@
   <template id="page-pending">
     <f7-page>
         <f7-block-title>{{ title }}</f7-block-title> 
+        <!-- KEEP FOR LESSON 4 -->
+        <!--<img src="img/logo.png" width="320" height="240">-->
         <f7-list v-if="todos.length > 0">      
           <f7-list-item v-for="(todo, key) in todos" :key="key" v-if="displayItem(todo)"
             :checked="(todo.completed ? true : false)" :data-index="key"
@@ -166,9 +169,9 @@
 
   <script src="cordova.js"></script> 
   <script src="lib/framework7/js/framework7.min.js"></script>
-  <script src="lib/vue/vue.min.js"></script> 
-  <!-- Use below version for debugging with chrom vue tool --> 
-  <!--<script src="lib/vue/vue.js"></script>-->
+  <!--<script src="lib/vue/vue.min.js"></script> -->
+  <!-- Use below version for debugging with chrome vue tools --> 
+  <script src="lib/vue/vue.js"></script>
   <script src="lib/framework7-vue/framework7-vue.min.js"></script>
   <script src="js/init-styles.js"></script>  
   <script src="js/todos.js"></script>
