@@ -9,5 +9,6 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <plugin name="cordova-plugin-statusbar" spec="~2.2.3" />    
+    <plugin name="cordova-plugin-statusbar" spec="~2.2.3" />
+    <engine name="ios" spec="~4.3.1" />
 </widget>
